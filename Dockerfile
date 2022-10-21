@@ -1,2 +1,2 @@
 FROM ngnix:alpine
-COPY ./usr/share/ngnix/html
+COPY . /usr/share/ngnix/html
